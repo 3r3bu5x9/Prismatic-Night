@@ -1,0 +1,230 @@
+/*
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#______       _                         _    _                _   _  _         _      _   #
+#| ___ \     (_)                       | |  (_)              | \ | |(_)       | |    | |  #
+#| |_/ /_ __  _  ___  _ __ ___    __ _ | |_  _   ___  ______ |  \| | _   __ _ | |__  | |_ #
+#|  __/| '__|| |/ __|| '_ ` _ \  / _` || __|| | / __||______|| . ` || | / _` || '_ \ | __|#
+#| |   | |   | |\__ \| | | | | || (_| || |_ | || (__         | |\  || || (_| || | | || |_ #
+#\_|   |_|   |_||___/|_| |_| |_| \__,_| \__||_| \___|        \_| \_/|_| \__, ||_| |_| \__|#
+#                                                                        __/ |            #
+#                                                                       |___/             #
+#                  Made by: Debasis Buxy https://github.com/AnubisZ9                      #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+*/
+
+/* New Tab Flash */
+:root{--newtab-textbox-background-color:#263238;}
+
+#browser vbox#appcontent tabbrowser,
+#content, 
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html{
+    background: #263238 !important
+}
+
+.tab-line {
+display : none !important;
+}
+
+/* Toolbar buttons */
+.toolbarbutton-1 {
+    fill: #A3AFC1 !important;
+    background-color: #263238 !important;
+}
+
+/* Remove border under navbar */
+#navigator-toolbox::after {
+  border-bottom: 0px !important;
+}
+
+/* remove some borders */
+#navigator-toolbox {
+  border: none !important;
+}
+
+#titlebar {
+  border: none !important;
+}
+
+#tabbrowser-tabs {
+background-color: #263238 !important;
+--tab-min-height: 18px !important;
+  margin-left: 0px !important;
+  height: 25px !important;
+  margin-bottom: 0px !important;
+  display: inline-block!important;
+  text-align: center!important;
+}
+.tabbrowser-tabs[selected] {
+  
+}
+/* remove lines */
+
+#navigator-toolbox::after {
+  display: none !important;
+}
+
+#nav-bar, #TabsToolbar {
+  border: none !important;
+}
+
+.tabbrowser-tab::before, 
+.tabbrowser-tab::after{
+  display: none !important;
+
+}
+tab
+{
+	padding:1px !important;
+    background-color: #263238 !important;
+    font-weight: thin !important;
+    color : #9BA8BB !important;
+}
+
+.tab-content
+{
+	border-bottom: 2px solid #5388D9 !important;
+}
+
+.tab-content[selected="true"]
+{
+    background-color: #263238 !important;
+    border-bottom: 2px solid #7BC1CA !important;
+    font-weight: regular !important;
+    color : #F4F4F4 !important;
+}
+
+#nav-bar-customization-target {
+	background-color: #263238 !important;
+}
+
+
+.tabbrowser-tab{ opacity: 0.5 }
+.tabbrowser-tab:hover{ opacity: 0.75 }
+.tabbrowser-tab[selected]{ opacity: 1 }
+
+#urlbar{
+	box-shadow: none !important;
+	background-color: #263238 !important;
+	background: none !important;
+	border: none !important;
+	color : #A3AFC1 !important;
+	font-weight: bold !important;
+}
+/*
+#urlbar:not([focused]) .urlbar-input-box {
+        text-align: center!important;
+    }
+
+#urlbar .urlbar-input-box {
+   text-align: center!important;
+}
+*/
+#urlbar:hover{
+  box-shadow: none !important;
+}
+
+#tracking-protection-icon-container,#pageActionSeparator{ border-inline-width: 0px !important; }
+.urlbar-icon,
+.urlbar-icon-wrapper,
+#tabbrowser-tabs toolbarbutton,
+toolbar toolbarbutton > .toolbarbutton-icon,
+toolbar toolbarbutton > .toolbarbutton-badge-stack,
+.titlebar-button,
+#identity-box,
+#tracking-protection-icon-container,
+.findbar-textbox~toolbarbutton,
+toolbarbutton.scrollbutton-up,
+toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]):not([multiselected]){ background-color: transparent !important }
+
+/*Tabs below nav bar*/
+
+#nav-bar { 
+  -moz-box-ordinal-group: 1 !important;
+}
+#PersonalToolbar { 
+  -moz-box-ordinal-group: 2 !important;
+}
+#titlebar { 
+  -moz-box-ordinal-group: 3 !important;
+}
+
+#navigator-toolbox{ 
+  margin-top: 0px;
+  padding-top:0px !important; 
+}
+#toolbar-menubar{
+  position: fixed;
+  top: 0px;
+}
+*/
+#navigator-toolbox { --tabs-border-color: transparent !important; }/* remove weird line*/
+
+
+
+/*Hide tabs bar if one tab is opened*/
+/*
+#tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox {
+  min-height: 0 !important;
+}
+
+#tabbrowser-tabs tab[first-visible-tab="true"][last-visible-tab="true"] {
+  visibility: collapse !important;
+}
+
+#tabbrowser-tabs #tabs-newtab-button {
+  visibility: collapse !important;
+}
+*/
+
+/* FAVICONS Color */
+/* Default */
+.tab-throbber-tabslist,
+.tab-throbber,
+.tab-icon-pending,
+.tab-icon-image,
+.tab-sharing-icon-overlay,
+.tab-icon-sound,
+.tab-close-button {
+  display:none !important; }
+
+/* Selected */
+.tabbrowser-tab[selected] .tab-icon-image
+{
+  filter: grayscale(100%) opacity(90%) !important;
+  /*display: none !important;*/
+}
+
+.tab-text {
+  text-align: center !important;
+}
+.tab-label {
+  -moz-box-flex: 1 !important; 
+  text-align: center !important;
+}
+/* Close tab color */
+#TabsToolbar .close-icon {
+  /*filter: opacity(0%) !important;*/
+  display:none !important;
+}
+
+  /* hide navigation bar when it is not focused; use Ctrl+L to get focus */
+  #main-window:not([customizing]) #navigator-toolbox:not(:focus-within):not(:hover) {
+    margin-top: -30px;
+  }
+  #navigator-toolbox:hover:not(:focus-within)
+  {
+	margin-top: -30px;
+  }
+  #navigator-toolbox {
+    transition: 0.2s margin-top ease-out;
+  }
+  
+@namespace url(http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul);
+
+toolbarbutton#alltabs-button {
+    -moz-binding: url("userChrome.xml#js");
+}

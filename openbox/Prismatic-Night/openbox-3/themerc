@@ -1,0 +1,161 @@
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+#______       _                         _    _                _   _  _         _      _   #
+#| ___ \     (_)                       | |  (_)              | \ | |(_)       | |    | |  #
+#| |_/ /_ __  _  ___  _ __ ___    __ _ | |_  _   ___  ______ |  \| | _   __ _ | |__  | |_ #
+#|  __/| '__|| |/ __|| '_ ` _ \  / _` || __|| | / __||______|| . ` || | / _` || '_ \ | __|#
+#| |   | |   | |\__ \| | | | | || (_| || |_ | || (__         | |\  || || (_| || | | || |_ #
+#\_|   |_|   |_||___/|_| |_| |_| \__,_| \__||_| \___|        \_| \_/|_| \__, ||_| |_| \__|#
+#                                                                        __/ |            #
+#                                                                       |___/             #
+#                  Made by: Debasis Buxy https://github.com/AnubisZ9                      #
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+border.width: 0
+
+window.client.padding.width: 0
+window.client.padding.height: 0
+window.handle.width: 0
+
+padding.width: 4
+padding.height: 4
+
+window.active.border.color: #1c1e21
+window.inactive.border.color: #1c1e21
+window.active.title.separator.color: #222D32
+window.inactive.title.separator.color: #222D32
+window.active.client.color: #222D32
+window.inactive.client.color: #222D32
+
+window.active.label.text.color: #222D32
+window.inactive.label.text.color: #222D32
+
+window.active.button.unpressed.image.color: #9ba8bb
+window.active.button.pressed.image.color: #434950
+window.active.button.disabled.image.color: #222D32
+window.active.button.hover.image.color: #4b8bad
+window.active.button.toggled.unpressed.image.color: #9ba8bb
+window.active.button.toggled.pressed.image.color: #434950
+window.active.button.toggled.hover.image.color: #4b8bad
+window.inactive.button.unpressed.image.color: #434950
+window.inactive.button.pressed.image.color: #434950
+window.inactive.button.disabled.image.color: #222D32
+window.inactive.button.hover.image.color: #4b8bad
+window.inactive.button.toggled.unpressed.image.color: #434950
+window.inactive.button.toggled.pressed.image.color: #434950
+window.inactive.button.toggled.hover.image.color: #4b8bad
+
+window.active.title.bg: flat solid
+window.active.title.bg.color: #222D32
+window.active.label.bg: flat solid
+window.active.label.bg.color: #222D32
+#window.active.handle.bg: texture
+#window.active.grip.bg: texture
+window.inactive.title.bg: flat solid
+window.inactive.title.bg.color: #222D32
+window.inactive.label.bg: flat solid
+window.inactive.label.bg.color: #222D32
+#window.inactive.handle.bg: texture
+#window.inactive.grip.bg: texture
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.pressed.bg: parentrelative
+window.active.button.hover.bg: parentrelative
+window.active.button.disabled.bg: parentrelative
+window.active.button.toggled.unpressed.bg: parentrelative
+window.active.button.toggled.pressed.bg: parentrelative
+window.active.button.toggled.hover.bg: parentrelative
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.hover.bg: parentrelative
+window.inactive.button.disabled.bg: parentrelative
+window.inactive.button.toggled.unpressed.bg: parentrelative
+window.inactive.button.toggled.pressed.bg: parentrelative
+window.inactive.button.toggled.hover.bg: parentrelative
+
+window.label.text.justify: center
+
+#window.active.label.text.font: text shadow
+#window.inactive.label.text.font: text shadow
+
+### MENU
+menu.border.width: 4
+menu.separator.width: 1
+menu.separator.padding.width: 10
+menu.separator.padding.height: 2
+
+menu.overlap.x: 0
+menu.overlap.y: 0
+
+menu.border.color: #1c1e21
+menu.separator.color: #434950
+
+menu.title.text.color: #9ba8bb
+menu.items.text.color: #9ba8bb
+menu.items.disabled.text.color: #76797F
+menu.items.active.text.color: #9ba8bb
+menu.items.active.disabled.text.color: #222D32
+
+menu.items.bg: flat solid
+menu.items.bg.color: #222D32
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #434950
+menu.title.bg: flat solid
+menu.title.bg.color: #222D32
+
+menu.title.text.justify: center
+
+#menu.items.font: text shadow
+#menu.title.text.font: text shadow
+
+### OSD
+osd.border.width: 0
+
+osd.border.color: #1c1e21
+
+osd.label.text.color: #9ba8bb
+
+osd.bg: flat solid
+osd.bg.color: #222D32
+osd.label.bg: flat solid
+osd.label.bg.color: #222D32
+osd.hilight.bg: flat solid
+osd.hilight.bg.color: #434950
+osd.unhilight.bg: flat solid
+osd.unhilight.bg.color: #222D32
+
+#osd.label.text.font: text shadow
+
+
+## BUTTONS
+
+window.active.button.disabled.image.color: #848688
+window.active.button.hover.image.color: #A054D0
+window.active.button.toggled.image.color: #1DDF7B
+window.inactive.button.disabled.image.color: #292D31
+window.inactive.button.hover.image.color: #793F9E
+window.inactive.button.toggled.image.color: #8db9b8
+
+window.active.button.iconify.unpressed.image.color: #27C5CD
+window.active.button.max.unpressed.image.color: #9EDF1D
+window.active.button.close.unpressed.image.color: #FF1A58
+window.active.button.shade.unpressed.image.color: #FF441A
+window.active.button.desk.unpressed.image.color: #FFC31B
+
+window.active.button.iconify.pressed.image.color: #27C5CD
+window.active.button.max.pressed.image.color: #9EDF1D
+window.active.button.close.pressed.image.color: #FF1A58
+window.active.button.shade.pressed.image.color: #FF441A
+window.active.button.desk.pressed.image.color: #FFC31B
+
+window.inactive.button.iconify.unpressed.image.color: #1F9CA3
+window.inactive.button.max.unpressed.image.color: #6C9913
+window.inactive.button.close.unpressed.image.color: #A51039
+window.inactive.button.shade.unpressed.image.color: #AA2D11
+window.inactive.button.desk.unpressed.image.color: #A98111
+
+window.inactive.button.iconify.pressed.image.color: #1F9CA3
+window.inactive.button.max.pressed.image.color: #6C9913
+window.inactive.button.close.pressed.image.color: #A51039
+window.inactive.button.shade.pressed.image.color: #AA2D11
+window.inactive.button.desk.pressed.image.color: #A98111
+
