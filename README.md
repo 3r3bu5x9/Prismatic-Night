@@ -1,2 +1,2 @@
 ### Prismatic-Night
-[scrot](/scrot.png)
+![scrot](/scrot.png)
