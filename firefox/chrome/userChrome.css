@@ -215,10 +215,10 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
   #main-window:not([customizing]) #navigator-toolbox:not(:focus-within):not(:hover) {
     margin-top: -30px;
   }
-  #navigator-toolbox:hover:not(:focus-within)
+  /*#navigator-toolbox:hover:not(:focus-within)
   {
 	margin-top: -30px;
-  }
+  }*//*uncomment this if u want the url bar to appear only on ctrl+L*/
   #navigator-toolbox {
     transition: 0.2s margin-top ease-out;
   }
