@@ -29,11 +29,6 @@ body{
 	grid-column: 1/-1;
 	padding-bottom: 25px;
 }
-.search_box{
-	grid-column: 1/-1;
-	padding-bottom: 25px;
-	margin-left: -50px;
-}
 .input_box{
 	border: none;
 	outline: none;
@@ -57,12 +52,14 @@ body{
 }
 .search_box
 {
+	grid-column: 1/-1;
+	padding-bottom: 25px;
 	background: #222D32;
 	width: 500px;
 	padding: 0px;
 	margin-bottom: 30px;
 	border-radius: 3px 3px 3px 3px;
-	box-shadow: 0px 3px 6px #171D20;
+	box-shadow: 0px 4px 5px #171D20;
 }
 .button:hover{
 	background: #373C42;
@@ -87,5 +84,6 @@ a:hover{
 	border: #191C1E;
 	border-radius: 3px;
 	width:   -moz-available;
-	box-shadow: 0px 3px 6px #171D20;
+	box-shadow: 0px 4px 5px #171D20;
 }
+
