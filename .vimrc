@@ -12,7 +12,8 @@ filetype plugin indent on    " required
 syntax on
 set number relativenumber
 set cursorline
-"set t_Co=256
+highlight LineNr ctermfg=8
+highlight CursorLineNr ctermfg=cyan
 hi CursorLine guifg=NONE guibg=#222D32 ctermbg=Black gui=NONE term=NONE cterm=NONE
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:UltiSnipsExpandTrigger="<c-s>"

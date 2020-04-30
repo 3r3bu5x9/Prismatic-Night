@@ -1,6 +1,6 @@
 ### Prismatic-Night
-![folders](/folders.png)
 ![firefox](/ff.png)
+![folders](/folders.png)
 ![scrot](/scrot.png)
 
 ### Instructions
