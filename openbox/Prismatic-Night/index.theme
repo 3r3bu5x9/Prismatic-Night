@@ -1,13 +1,6 @@
 [Desktop Entry]
 Type=X-GNOME-Metatheme
 Name=Prismatic-Night
-Comment=A flat theme with transparent elements
+Comment=A dark theme with vibrant, colorful buttons
 Encoding=UTF-8
-
-[X-GNOME-Metatheme]
-GtkTheme=Yeti
-MetacityTheme=Yeti
-IconTheme=gnome
-CursorTheme=DMZ-Black
-ButtonLayout=menu:minimize,maximize,close
 
