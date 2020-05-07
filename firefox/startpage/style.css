@@ -1,16 +1,3 @@
-/*
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-#______       _                         _    _                _   _  _         _      _   #
-#| ___ \     (_)                       | |  (_)              | \ | |(_)       | |    | |  #
-#| |_/ /_ __  _  ___  _ __ ___    __ _ | |_  _   ___  ______ |  \| | _   __ _ | |__  | |_ #
-#|  __/| '__|| |/ __|| '_ ` _ \  / _` || __|| | / __||______|| . ` || | / _` || '_ \ | __|#
-#| |   | |   | |\__ \| | | | | || (_| || |_ | || (__         | |\  || || (_| || | | || |_ #
-#\_|   |_|   |_||___/|_| |_| |_| \__,_| \__||_| \___|        \_| \_/|_| \__, ||_| |_| \__|#
-#                                                                        __/ |            #
-#                                                                       |___/             #
-#                  Made by: Debasis Buxy https://github.com/AnubisZ9                      #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-*/
 body{
 	background: #263238;
 	color: #BBC4C8;
@@ -20,14 +7,14 @@ body{
 	grid-gap: 20px;
 	margin-top: 10%;
 	margin-bottom: 2%;
-	margin-left: 15%;
-	margin-right: 15%;
-	grid-template-columns: repeat(4,1fr);
+	margin-left: 10%;
+	margin-right: 10%;
+	grid-template-columns: repeat(5,1fr);
 	justify-items: center;
 }
 .logo{
 	grid-column: 1/-1;
-	padding-bottom: 25px;
+	padding-bottom: 15px;
 }
 .input_box{
 	border: none;
@@ -43,12 +30,13 @@ body{
 .button{
 	background:  none;
 	border-radius: 0px 3px 3px 0px;
-	padding-top: 9px;
-	padding-bottom: 9px;
-	padding-left: 9px;
-	padding-right: 8px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
 	position: absolute;
 	border: none;
+	transition-duration: 0.4s;
 }
 .search_box
 {
@@ -62,7 +50,7 @@ body{
 	box-shadow: 0px 4px 5px #171D20;
 }
 .button:hover{
-	background: #373C42;
+	filter: saturate(150%) brightness(120%)!important;
 }
 li{
 	list-style-type: none;
@@ -86,4 +74,3 @@ a:hover{
 	width:   -moz-available;
 	box-shadow: 0px 4px 5px #171D20;
 }
-
