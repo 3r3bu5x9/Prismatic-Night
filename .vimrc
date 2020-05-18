@@ -12,8 +12,8 @@ filetype plugin indent on    " required
 syntax on
 set number relativenumber
 set cursorline
-highlight LineNr ctermfg=8
-highlight CursorLineNr ctermfg=cyan
+highlight LineNr ctermfg=0
+highlight CursorLineNr ctermfg=7
 hi CursorLine guifg=NONE guibg=#222D32 ctermbg=Black gui=NONE term=NONE cterm=NONE
 let g:ycm_global_ycm_extra_conf = '~/.vim/.ycm_extra_conf.py'
 let g:UltiSnipsExpandTrigger="<c-s>"
@@ -37,16 +37,16 @@ endfunction
 
 " Set status line display
 set laststatus=2
-hi StatusLine ctermfg=black ctermbg=red cterm=NONE
-hi StatusLineNC ctermfg=black ctermbg=red cterm=NONE
-hi User1 ctermfg=black ctermbg=8
+hi StatusLine ctermfg=8 ctermbg=1 cterm=NONE
+hi StatusLineNC ctermfg=8 ctermbg=1 cterm=NONE
+hi User1 ctermfg=8 ctermbg=9
 hi User2 ctermfg=NONE ctermbg=NONE
-hi User3 ctermfg=black ctermbg=blue
-hi User4 ctermfg=black ctermbg=cyan
-hi User5 ctermfg=black ctermbg=magenta
-hi User6 ctermfg=black ctermbg=green
-hi User7 ctermfg=black ctermbg=yellow
-hi User8 ctermfg=black ctermbg=white
+hi User3 ctermfg=8 ctermbg=4
+hi User4 ctermfg=8 ctermbg=6
+hi User5 ctermfg=8 ctermbg=5
+hi User6 ctermfg=8 ctermbg=2
+hi User7 ctermfg=8 ctermbg=3
+hi User8 ctermfg=8 ctermbg=15
 
   let g:currentmode={
       \'n' : 'Normal',

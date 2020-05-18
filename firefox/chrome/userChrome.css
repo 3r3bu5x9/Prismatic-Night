@@ -1,17 +1,3 @@
-/*
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
-#______       _                         _    _                _   _  _         _      _   #
-#| ___ \     (_)                       | |  (_)              | \ | |(_)       | |    | |  #
-#| |_/ /_ __  _  ___  _ __ ___    __ _ | |_  _   ___  ______ |  \| | _   __ _ | |__  | |_ #
-#|  __/| '__|| |/ __|| '_ ` _ \  / _` || __|| | / __||______|| . ` || | / _` || '_ \ | __|#
-#| |   | |   | |\__ \| | | | | || (_| || |_ | || (__         | |\  || || (_| || | | || |_ #
-#\_|   |_|   |_||___/|_| |_| |_| \__,_| \__||_| \___|        \_| \_/|_| \__, ||_| |_| \__|#
-#                                                                        __/ |            #
-#                                                                       |___/             #
-#                  Made by: Debasis Buxy https://github.com/AnubisZ9                      #
-# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
-*/
-
 /* New Tab Flash */
 :root{--newtab-textbox-background-color:#263238;}
 
@@ -84,13 +70,13 @@ tab
 
 .tab-content
 {
-	border-bottom: 2px solid #5388D9 !important;
+	border-bottom: 2px solid #9575CD !important;
 }
 
 .tab-content[selected="true"]
 {
     background-color: #263238 !important;
-    border-bottom: 2px solid #7BC1CA !important;
+    border-bottom: 2px solid #9C27B0 !important;
     font-weight: regular !important;
     color : #F4F4F4 !important;
 }
@@ -215,10 +201,10 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
   #main-window:not([customizing]) #navigator-toolbox:not(:focus-within):not(:hover) {
     margin-top: -30px;
   }
-  /*#navigator-toolbox:hover:not(:focus-within)
+  #navigator-toolbox:hover:not(:focus-within)
   {
 	margin-top: -30px;
-  }*//*uncomment this if u want the url bar to appear only on ctrl+L*/
+  }
   #navigator-toolbox {
     transition: 0.2s margin-top ease-out;
   }

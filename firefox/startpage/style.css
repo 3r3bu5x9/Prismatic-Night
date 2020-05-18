@@ -21,16 +21,16 @@ body{
 	outline: none;
 	background: none;
 	padding: 15px;
-	width: 417px;
+	width: 410px;
 	color: whitesmoke;
-	font-size: 20px;
+	font-size: 22px;
 	transition: 0.4px all;
 	border-radius: 3px 0px 0px 3px;
 }
 .button{
 	background:  none;
 	border-radius: 0px 3px 3px 0px;
-	padding-top: 1px;
+	padding-top: 4px;
 	padding-bottom: 1px;
 	padding-left: 2px;
 	padding-right: 2px;
@@ -53,6 +53,7 @@ body{
 	filter: saturate(150%) brightness(120%)!important;
 }
 li{
+	font-size: 16px;
 	list-style-type: none;
 	padding:5px
 }
@@ -64,7 +65,7 @@ a:visited{
 	color: #8F9191;
 }
 a:hover{
-	color: #94D4DE;
+	color: #BD3CD3;
 }
 .category{
 	background: #222D32;

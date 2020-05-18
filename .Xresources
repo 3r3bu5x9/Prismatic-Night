@@ -1,0 +1,81 @@
+! font settings --------------------------------------------------------------
+
+Xft.autohint: true
+Xft.antialias: true
+Xft.hinting: true
+Xft.hintstyle: hintslight
+!Xft.dpi: 96
+Xft.rgba: rgb
+Xft.lcdfilter: lcddefault
+
+URxvt.foreground: #A3AFC1
+URxvt.background: #263238
+URxvt.color0:     #384B53
+URxvt.color8:     #1A2327
+URxvt.color1:     #F07178
+URxvt.color9:     #FF5C38
+URxvt.color2:     #C3E88D
+URxvt.color10:    #9EDF1D
+URxvt.color3:     #FFCB6B
+URxvt.color11:    #FFCB6B
+URxvt.color4:     #82AAFF
+URxvt.color12:    #82AAFF
+URxvt.color5:     #C792EA
+URxvt.color13:    #C792EA
+URxvt.color6:     #89DDFF
+URxvt.color14:    #89DDFF
+URxvt.color7:     #E7E7E7
+URxvt.color15:    #E7E7E7
+! urxvt -------------------------------------------
+
+URxvt.font: xft:Iosevka:size=10:style=Semibold
+URxvt.boldFont: xft:Iosevka:Bold:size=10
+URxvt.letterSpace: 0
+! Add fallback fonts as laid out in `man 1 urxvt` under "font:" in the RESOURCES section
+
+! Window size and position
+!URxvt*geometry: 60x22+50+100
+! Window size, let the Window Manager position it
+URxvt.geometry: 78x22
+
+URxvt.scrollstyle: plain
+URxvt.scrollBar: false
+URxvt.scrollBar_right: false
+URxvt.iconFile: /usr/share/icons/Paper/48x48/apps/utilities-terminal.png
+URxvt.cursorBlink: true
+URxvt.fading: 20
+URxvt*internalBorder: 5
+URxvt*cursorUnderline: true
+
+! Grey theming
+!URxvt*background: #cecece
+!URxvt*foreground: #101010
+! Terminator Beam colours
+
+
+! scrollback buffer lines - 65535 is max (64 is default)
+URxvt.saveLines: 16384
+
+! True Transparency, opacity percentage set in square brackets before URxvt.background colour
+URxvt.depth: 24
+
+! Clickble URLs
+URxvt.perl-ext-common: default,matcher
+URxvt.url-launcher: /usr/bin/x-www-browser
+URxvt.matcher.button: 3
+
+! Custom colourscheme, see http://terminal.sexy/ for more ideas.
+! Commented out colors are from the original Bunsenlabs Hydrogen terminal theme.
+
+
+
+! Colourised man pages, also changes scheme for htop(1) and others.
+!
+! Headings:
+! URxvt.colorBD: #cf6171
+!
+! Underline:
+! URxvt.colorUL: #4186be
+!
+! Italicised:
+! URxvt.colorIT: #71bebe

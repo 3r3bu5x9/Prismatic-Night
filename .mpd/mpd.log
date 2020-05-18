@@ -1,0 +1,57 @@
+Dec 21 19:51 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 19:51 : exception: Failed to open '/home/debasis/.mpd/mpdstate': No such file or directory
+Dec 21 19:51 : config: option 'device' on line 13 was not recognized
+Dec 21 19:51 : avahi: Service 'Music Player @ manjaro-i3' successfully established.
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/14 Lord Of Woe.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/06 Through the Looking Glass.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/08 Scraping the Barrel.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/17 Weeping Wastelands.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/02 Requiem.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/16 Affliction Of The Dead.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/11 Old Souls.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/01 Foreward.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/15 The Eternal Cold.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/10 Timeless.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/07 Blood Moon.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/04 Let Me In.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/03 Fake.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/12 Ether.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/09 Marionette.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/13 Summoning Storms.m4a
+Dec 21 19:51 : ffmpeg/mov,mp4,m4a,3gp,3g2,mj2: stream 0, timescale not set
+Dec 21 19:51 : update: added Make Them Suffer - Old Souls & Lord of Woe (2016)/05 Threads.m4a
+Dec 21 19:56 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 19:56 : config: option 'device' on line 13 was not recognized
+Dec 21 19:56 : avahi: Service 'Music Player @ manjaro-i3' successfully established.
+Dec 21 20:00 : client: [0] opened from 127.0.0.1:40478
+Dec 21 20:01 : client: [0] closed
+Dec 21 20:01 : client: [1] opened from 127.0.0.1:40482
+Dec 21 20:02 : client: [1] closed
+Dec 21 20:02 : client: [2] opened from 127.0.0.1:40486
+Dec 21 20:02 : client: [2] closed
+Dec 21 20:08 : config: option 'device' on line 13 was not recognized
+Dec 21 20:08 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 20:08 : avahi: Service 'Music Player @ manjaro-i3' successfully established.
+Dec 21 20:08 : client: [0] opened from 127.0.0.1:40548
+Dec 21 20:08 : client: [0] closed
+Dec 21 20:11 : config: option 'device' on line 13 was not recognized
+Dec 21 20:11 : exception: RTIOThread could not get realtime scheduling, continuing anyway: sched_setscheduler failed: Operation not permitted
+Dec 21 20:11 : avahi: Service 'Music Player @ manjaro-i3' successfully established.
+Dec 21 20:11 : client: [0] opened from 127.0.0.1:40556
+Dec 21 20:12 : client: [0] closed

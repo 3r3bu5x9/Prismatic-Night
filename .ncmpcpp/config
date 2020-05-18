@@ -1,0 +1,31 @@
+[header]
+header_visibility = "no"
+header_window_color = "default"
+volume_color = "green"
+state_line_color = "black"
+
+[playlist]
+playlist_display_mode = "classic"
+song_list_format = "%t $R%a  %l"
+now_playing_prefix = "$b$3"
+now_playing_suffix = "$/b$9"
+browser_playlist_prefix = "$1»$1 "
+
+[statusbar]
+progressbar_look = "━━━"
+progressbar_color = "black"
+statusbar_visibility = "yes"
+progressbar_elapsed_color = "6"
+statusbar_color = "cyan"
+song_status_format = "{%t - %a//%b}"
+
+[library]
+song_library_format = "{{%a - %t}|{%f}}{$R%l}"
+empty_tag_color = "black"
+
+[global]
+main_window_color = "default"
+centered_cursor = "yes"
+enable_window_title = "yes"
+external_editor = "vim"
+execute_on_song_change = ~/.ncmpcpp/./art.sh
