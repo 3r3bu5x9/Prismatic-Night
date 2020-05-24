@@ -14,16 +14,16 @@ URxvt.color0:     #384B53
 URxvt.color8:     #1A2327
 URxvt.color1:     #F07178
 URxvt.color9:     #FF5C38
-URxvt.color2:     #C3E88D
-URxvt.color10:    #9EDF1D
-URxvt.color3:     #FFCB6B
-URxvt.color11:    #FFCB6B
-URxvt.color4:     #82AAFF
+URxvt.color2:     #14A058
+URxvt.color10:    #A0E250
+URxvt.color3:     #F2C024
+URxvt.color11:    #ECEB4D
+URxvt.color4:     #556EA6
 URxvt.color12:    #82AAFF
-URxvt.color5:     #C792EA
+URxvt.color5:     #9069A8
 URxvt.color13:    #C792EA
 URxvt.color6:     #89DDFF
-URxvt.color14:    #89DDFF
+URxvt.color14:    #90EECB
 URxvt.color7:     #E7E7E7
 URxvt.color15:    #E7E7E7
 ! urxvt -------------------------------------------
