@@ -6,18 +6,19 @@ state_line_color = "black"
 
 [playlist]
 playlist_display_mode = "classic"
-song_list_format = "%t $R%a  %l"
-now_playing_prefix = "$b$3"
-now_playing_suffix = "$/b$9"
+song_list_format = "$5%t $R$6%a"
+now_playing_prefix = "$b"
+now_playing_suffix = "$/b"
 browser_playlist_prefix = "$1»$1 "
 
 [statusbar]
 progressbar_look = "━━━"
 progressbar_color = "black"
 statusbar_visibility = "yes"
-progressbar_elapsed_color = "6"
-statusbar_color = "cyan"
-song_status_format = "{%t - %a//%b}"
+progressbar_elapsed_color = "cyan"
+statusbar_color = "3"
+song_status_format = "{%t - %a}"
+#display_bitrate = yes
 
 [library]
 song_library_format = "{{%a - %t}|{%f}}{$R%l}"
