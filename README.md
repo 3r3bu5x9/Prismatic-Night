@@ -2,7 +2,7 @@
 ![firefox](/ff.png)
 ![folders](/folders.png)
 ![ncmpcpp](/ncmpcpp.png)
-![scrot](/scrot.png)
+![all](/scrot.png)
 
 ### Instructions
 

@@ -42,7 +42,7 @@ yellow="$(tput setaf 3)"
 red="$(tput setaf 1)"
 blue="$(tput setaf 4)"
 green="$(tput setaf 2)"
-orange="$(tput setaf 8)"
+orange="$(tput setaf 1)"
 violet="$(tput setaf 5)"
 cyan="$(tput setaf 6)"
 reset="$(tput sgr0)"
@@ -55,25 +55,13 @@ c1="${reset}${accent}"
 
 cat <<EOF
 
-  ${c0}${cbg}    _____    ${c0}${white}    USER${reset}       ${c0}${violet}${user}${reset}
-  ${c0}${cbg}   /  __ \\   ${c0}${white}    DISTRO     ${c0}${red}${distro}${reset}
-  ${c0}${cbg}  |  /    |  ${c0}${white}    KERNEL     ${c0}${yellow}${kernel}${reset}
-  ${c0}${cbg}  |  \\___-   ${c0}${white}    UPTIME     ${c0}${cyan}${uptime}${reset}
-  ${c0}${cbg}  -_         ${c0}${white}    ${envtype}         ${c0}${orange}${WM}${reset}
-  ${c0}${cbg}    --_      ${c0}${white}    SHELL      ${c0}${green}${shell}${reset}
-  ${c0}${cbg}             ${c0}${white}    PACKAGES   ${c0}${blue}${packages}${reset}
+  ${c0}${cbg}    _____    ${c0}    USER${reset}       ${c0}${violet}${user}${reset}
+  ${c0}${cbg}   /  __ \\   ${c0}    DISTRO     ${c0}${orange}${distro}${reset}
+  ${c0}${cbg}  |  /    |  ${c0}    KERNEL     ${c0}${yellow}${kernel}${reset}
+  ${c0}${cbg}  |  \\___-   ${c0}    UPTIME     ${c0}${cyan}${uptime}${reset}
+  ${c0}${cbg}  -_         ${c0}    ${envtype}         ${c0}${white}${WM}${reset}
+  ${c0}${cbg}    --_      ${c0}    SHELL      ${c0}${green}${shell}${reset}
+  ${c0}${cbg}             ${c0}    PACKAGES   ${c0}${blue}${packages}${reset}
 EOF
-
-f=3 b=4
-for j in f b; do
-  for i in {0..7}; do
-    printf -v $j$i %b "\e[${!j}${i}m"
-  done
-done
-d=$'\e[1m'
-t=$'\e[0m'
-v=$'\e[7m'
- 
- 
-pcs() { for i in {0..7}; do echo -en "\e[${1}$((30+$i))m\u2580 \e[0m"; done; }
-printf "\n\t\t  %s\n" "$(pcs)"
+pcs() { for i in {0..7}; do echo -en "\e[${1}$((30+$i))m \u2588\u2588 \e[0m"; done; }
+printf "\n %s\n %s\n\n" "$(pcs)" "$(pcs '1;')"
