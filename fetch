@@ -1,7 +1,8 @@
 #!/bin/bash
+##This is a modified version of the ufetch script
 ## Get system info
 user="${USER}@$(hostname)"
-distro='Debian 10.0'
+distro='Debian Sid'
 kernel="$(uname -sr | sed 's/-.*//')"
 uptime="$(uptime -p | sed 's/up //')"
 packages="$(dpkg -l | wc -l)"
