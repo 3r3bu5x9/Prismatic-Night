@@ -18,7 +18,6 @@ statusbar_visibility = "yes"
 progressbar_elapsed_color = "cyan"
 statusbar_color = "3"
 song_status_format = "{%t - %a}"
-#display_bitrate = yes
 
 [library]
 song_library_format = "{{%a - %t}|{%f}}{$R%l}"
@@ -29,4 +28,4 @@ main_window_color = "default"
 centered_cursor = "yes"
 enable_window_title = "yes"
 external_editor = "vim"
-execute_on_song_change = ~/.ncmpcpp/./art.sh
+execute_on_song_change = ~/.ncmpcpp/./notify.sh

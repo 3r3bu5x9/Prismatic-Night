@@ -1,8 +1,8 @@
 ### Prismatic-Night
-![firefox](/ff.png)
-![folders](/folders.png)
-![ncmpcpp](/ncmpcpp.png)
-![all](/all.png)
+![firefox](/screenshots/ff.png)
+![folders](/screenshots/folders.png)
+![ncmpcpp](/screenshots/ncmpcpp.png)
+![all](/screenshots/all.png)
 
 ### Instructions
 

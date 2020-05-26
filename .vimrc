@@ -23,8 +23,6 @@ let g:ycm_semantic_triggers = { 'cpp': [ 're!.' ] }
 let g:ycm_autoclose_preview_window_after_insertion = 1
 
 
-
-
 "Status Line
 function! GitBranch()
   return system("git rev-parse --abbrev-ref HEAD 2>/dev/null | tr -d '\n'")

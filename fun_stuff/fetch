@@ -56,13 +56,13 @@ c1="${reset}${accent}"
 
 cat <<EOF
 
-  ${c0}${cbg}    _____    ${c0}    USER${reset}       ${c0}${violet}${user}${reset}
-  ${c0}${cbg}   /  __ \\   ${c0}    DISTRO     ${c0}${orange}${distro}${reset}
-  ${c0}${cbg}  |  /    |  ${c0}    KERNEL     ${c0}${yellow}${kernel}${reset}
-  ${c0}${cbg}  |  \\___-   ${c0}    UPTIME     ${c0}${cyan}${uptime}${reset}
-  ${c0}${cbg}  -_         ${c0}    ${envtype}         ${c0}${white}${WM}${reset}
-  ${c0}${cbg}    --_      ${c0}    SHELL      ${c0}${green}${shell}${reset}
-  ${c0}${cbg}             ${c0}    PACKAGES   ${c0}${blue}${packages}${reset}
+  USER       ${c0}${violet}${user}${reset}
+  DISTRO     ${c0}${orange}${distro}${reset}
+  KERNEL     ${c0}${yellow}${kernel}${reset}
+  UPTIME     ${c0}${cyan}${uptime}${reset}
+  ${envtype}         ${c0}${white}${WM}${reset}
+  SHELL      ${c0}${green}${shell}${reset}
+  PACKAGES   ${c0}${blue}${packages}${reset}
 EOF
 pcs() { for i in {0..7}; do echo -en "\e[${1}$((30+$i))m \u2588\u2588 \e[0m"; done; }
 printf "\n %s\n %s\n\n" "$(pcs)" "$(pcs '1;')"
