@@ -3,6 +3,7 @@
 ![folders](/screenshots/folders.png)
 ![ncmpcpp](/screenshots/ncmpcpp.png)
 ![all](/screenshots/all.png)
+![zathura](/screenshots/zathura.png)
 
 ### Instructions
 

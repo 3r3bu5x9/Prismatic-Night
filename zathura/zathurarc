@@ -1,0 +1,97 @@
+#colors
+set font                        "iosevka 10"
+set default-bg                  "#263238" 
+set default-fg                  "#222D32" 
+
+set statusbar-fg                "#B0B0B0" 
+set statusbar-bg                "#222D32" 
+
+set inputbar-bg                 "#222D32" 
+set inputbar-fg                 "#303030" 
+
+set index-bg                   "#222D32" 
+set index-fg                   "#B9C2C6" 
+set index-active-bg             "#B12CC9" 
+set index-active-fg             "#F4F4F4" 
+
+set notification-error-bg       "#AC4142" 
+set notification-error-fg       "#263238" 
+
+set notification-warning-bg     "#AC4142" 
+set notification-warning-fg     "#263238" 
+
+set highlight-color             "#F4BF75" 
+set highlight-active-color      "#6A9FB5" 
+
+set completion-highlight-fg     "#303030" 
+set completion-highlight-bg     "#75B5AA" 
+
+set completion-bg               "#303030" 
+set completion-fg               "#75B5AA" 
+
+set notification-bg             "#90A959" 
+set notification-fg             "#263238" 
+
+set recolor-lightcolor          "#263238" 
+set recolor-darkcolor           "#E0E0E0" 
+set recolor                     "true"
+
+# setting recolor-keep true will keep any color your pdf has.
+# if it is false, it'll just be black and white
+set recolor-keephue             "true"
+
+
+# settings
+set guioptions none
+set window-height 1024
+set window-width 960
+set adjust-open width
+# set show-scrollbars true
+set first-page-column 2
+set window-title-basename true
+# set database sqlite
+set recolor-keephue
+set selection-clipboard clipboard
+
+
+# key bindings
+map [normal]     <F11> toggle_fullscreen
+map [fullscreen] <F11> toggle_fullscreen
+map [normal]     <C-l> reload
+map [fullscreen] <C-l> reload
+
+map [normal]     e scroll down
+map [fullscreen] e scroll down
+map [normal]     <C-e> scroll down
+map [fullscreen] <C-e> scroll down
+map [normal]     y scroll up
+map [fullscreen] y scroll up
+map [normal]     <C-y> scroll up
+map [fullscreen] <C-y> scroll up
+map [normal]     R rotate rotate-ccw
+map [fullscreen] R rotate rotate-ccw
+
+map [normal]     <PageUp>   navigate previous
+map [fullscreen] <PageUp>   navigate previous
+map [normal]     <PageDown> navigate next
+map [fullscreen] <PageDown> navigate next
+
+map [normal]     <A-1> set "first-page-column 1:1"
+map [fullscreen] <A-1> set "first-page-column 1:1"
+map [normal]     <A-2> set "first-page-column 1:2"
+map [fullscreen] <A-2> set "first-page-column 1:2"
+
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] d toggle_page_mode 2
+map [fullscreen] <Tab> toggle_index
+map [fullscreen] j scroll down
+map [fullscreen] k scroll up
+map [fullscreen] <C-d> scroll half-down
+map [fullscreen] <C-u> scroll half-up
+map [fullscreen] <C-o> jumplist backward
+map [fullscreen] <C-i> jumplist forward
+
+map [index] q quit
+
