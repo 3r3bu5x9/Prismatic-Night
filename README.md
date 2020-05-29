@@ -31,4 +31,7 @@ Copy the contents of the tint2 dir to ~/.config/tint2/ and select the theme with
 
 - Folder and systray icons:
 
-If ur using Nemo or any fork of Nautilus as your file manager, u can directly select the icons through right-click menu -> properties after selecting a folder. For other file managers u have to replace the icons of ur icon theme with the ones here. For more info read and see the papirus mod section [here](https://github.com/AnubisZ9/DebianDots).
+If ur using Nemo or any fork of Nautilus as your file manager, u can directly select the icons through right-click menu -> properties after selecting a folder. For other file managers u have to replace the icons of ur icon theme with the ones here. You can also replace the icons of any icon pack with my icons. For the systray icons copy the contents to for example /usr/share/icons/Papirus/16x16/panel and replace the icons. Then restart session.
+
+- Geany colorscheme:
+Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
