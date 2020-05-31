@@ -2,7 +2,7 @@
 header_visibility = "no"
 header_window_color = "default"
 volume_color = "green"
-state_line_color = "black"
+state_line_color = "9"
 
 [playlist]
 playlist_display_mode = "classic"
@@ -13,7 +13,7 @@ browser_playlist_prefix = "$1»$1 "
 
 [statusbar]
 progressbar_look = "━━━"
-progressbar_color = "black"
+progressbar_color = "9"
 statusbar_visibility = "yes"
 progressbar_elapsed_color = "cyan"
 statusbar_color = "3"
@@ -21,7 +21,7 @@ song_status_format = "{%t - %a}"
 
 [library]
 song_library_format = "{{%a - %t}|{%f}}{$R%l}"
-empty_tag_color = "black"
+empty_tag_color = "9"
 
 [global]
 main_window_color = "default"
