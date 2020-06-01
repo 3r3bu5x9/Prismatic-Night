@@ -1,24 +1,4 @@
-### Prismatic-Night
-
-1. **Firefox**, **tint2**
-
-![firefox](/screenshots/ff.png)
-
-2. **128x128 folder designs**
-
-![folders](/screenshots/folders.png)
-
-3. **ncmpcpp**, **xfce4-notify**
-
-![ncmpcpp](/screenshots/ncmpcpp.png)
-
-4. **Geany**, **urxvt**, **nemo**
-
-![all](/screenshots/all.png)
-
-5. **Zathura**
-
-![zathura](/screenshots/zathura.png)
+## Prismatic-Night
 
 ### Instructions
 
@@ -67,3 +47,26 @@ If ur using Nemo or any fork of Nautilus as your file manager, u can directly se
 - Geany colorscheme:
 
 Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
+
+
+### Screenshots
+
+1. **Firefox**, **tint2**
+
+![firefox](/screenshots/ff.png)
+
+2. **128x128 folder designs**
+
+![folders](/screenshots/folders.png)
+
+3. **ncmpcpp**, **xfce4-notify**
+
+![ncmpcpp](/screenshots/ncmpcpp.png)
+
+4. **Geany**, **urxvt**, **nemo**
+
+![all](/screenshots/all.png)
+
+5. **Zathura**
+
+![zathura](/screenshots/zathura.png)
