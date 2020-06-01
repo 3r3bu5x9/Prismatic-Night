@@ -4,7 +4,7 @@
 
 - For firefox
 
-**Important**: see line 204 of **userChrome.css**
+**Important**: see line 204 of [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
 
 ```
  /* #navigator-toolbox:hover:not(:focus-within)
@@ -15,7 +15,7 @@
 
 This is commented by default. So the url bar, addons, and other stuff can be accessed by hovering on the tab area with your mouse.
 
-If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.
+If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
 
 **Setting the theme...**
 Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ to use them. You can get the location of your PROFILE dir in about:profiles. Set the startpage for Home in preferences and restart.
