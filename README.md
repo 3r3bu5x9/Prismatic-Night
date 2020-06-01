@@ -1,13 +1,26 @@
 ### Prismatic-Night
+
+1. Firefox, tint2
 ![firefox](/screenshots/ff.png)
+
+2. 128x128 folder designs
 ![folders](/screenshots/folders.png)
+
+3. ncmpcpp, xfce4-notify
 ![ncmpcpp](/screenshots/ncmpcpp.png)
+
+4. Geany, urxvt, nemo
 ![all](/screenshots/all.png)
+
+5. Zathura
 ![zathura](/screenshots/zathura.png)
 
 ### Instructions
 
 - For firefox
+
+**Important**: press **Ctrl+L** to view the urlbar and access the menu, addons and other stuff.
+
 Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ to use them. You can get the location of your PROFILE dir in about:profiles. Set the startpage for Home in preferences and restart.
 
  The chrome dir contains 2 types of files.
@@ -35,4 +48,5 @@ Copy the contents of the tint2 dir to ~/.config/tint2/ and select the theme with
 If ur using Nemo or any fork of Nautilus as your file manager, u can directly select the icons through right-click menu -> properties after selecting a folder. For other file managers u have to replace the icons of ur icon theme with the ones here. You can also replace the icons of any icon pack with my icons. For the systray icons copy the contents to for example /usr/share/icons/Papirus/16x16/panel and replace the icons. Then restart session.
 
 - Geany colorscheme:
+
 Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
