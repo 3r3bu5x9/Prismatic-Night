@@ -1,26 +1,43 @@
 ### Prismatic-Night
 
-1. Firefox, tint2
+1. **Firefox**, **tint2**
+
 ![firefox](/screenshots/ff.png)
 
-2. 128x128 folder designs
+2. **128x128 folder designs**
+
 ![folders](/screenshots/folders.png)
 
-3. ncmpcpp, xfce4-notify
+3. **ncmpcpp**, **xfce4-notify**
+
 ![ncmpcpp](/screenshots/ncmpcpp.png)
 
-4. Geany, urxvt, nemo
+4. **Geany**, **urxvt**, **nemo**
+
 ![all](/screenshots/all.png)
 
-5. Zathura
+5. **Zathura**
+
 ![zathura](/screenshots/zathura.png)
 
 ### Instructions
 
 - For firefox
 
-**Important**: press **Ctrl+L** to view the urlbar and access the menu, addons and other stuff.
+**Important**: see line 204 of **userChrome.css**
 
+```
+ /* #navigator-toolbox:hover:not(:focus-within)
+  {
+	margin-top: -30px;
+  }*//*uncomment this if u want focus only on pressing ctrl+L*/
+```
+
+This is commented by default. So the url bar, addons, and other stuff can be accessed by hovering on the tab area with your mouse.
+
+If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.
+
+**Setting the theme...**
 Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ to use them. You can get the location of your PROFILE dir in about:profiles. Set the startpage for Home in preferences and restart.
 
  The chrome dir contains 2 types of files.
