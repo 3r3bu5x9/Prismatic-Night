@@ -2,7 +2,7 @@
 
 ### Instructions
 
-- For firefox
+- **For firefox**
 
 **Important**: see line 204 of [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
 
@@ -28,26 +28,29 @@ Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ t
 
 If you are using FF 69+ you need to enable this first: about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true
 
-- For the startpage: 
+- **For the startpage**: 
 
 To enable the newtab startpage functionality open userChrome.js and then change const mypage = "file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html"; Put the path of your index.html in the quotation.
 
-- Openbox theme:
+- **Openbox theme**:
 
-Copy the Prismatic-Night dir from openbox dir to ~/.themes/ to use it and select the theme with your Openbox Configuration Manager.
+Copy the Prismatic-Night dir from openbox dir to ~/.themes/ or /usr/share/themes/ to use it and select the theme with your Openbox Configuration Manager.
 
-- Tint2 theme: 
+- **Tint2 theme**: 
 
 Copy the contents of the tint2 dir to ~/.config/tint2/ and select the theme with your tint2 gui editor/ theme selector. Do not forget to put the correct path of the icons in your tint2rc otherwise the icons wont appear(change it to your username in /home/USERNAME/.config/tint2/icons/icon.png).
 
-- Folder and systray icons:
+- **Folder and systray icons**:
 
 If ur using Nemo or any fork of Nautilus as your file manager, u can directly select the icons through right-click menu -> properties after selecting a folder. For other file managers u have to replace the icons of ur icon theme with the ones here. You can also replace the icons of any icon pack with my icons. For the systray icons copy the contents to for example /usr/share/icons/Papirus/16x16/panel and replace the icons. Then restart session.
 
-- Geany colorscheme:
+- **Geany colorscheme**:
 
 Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
 
+- **Zathura**:
+
+Copy the zathura dir to ~/.config/
 
 ### Screenshots
 
