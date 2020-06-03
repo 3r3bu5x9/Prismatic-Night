@@ -15,7 +15,15 @@
 
 This is commented by default. So the url bar, addons, and other stuff can be accessed by hovering on the tab area with your mouse.
 
+*Hover access*
+
+![hover](/screenshots/hover.gif)
+
 If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
+
+*Ctrl+L access*
+
+![ctrlL](/screenshots/ctrl_L.gif)
 
 **Setting the theme...**
 Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ to use them. You can get the location of your PROFILE dir in about:profiles. Set the startpage for Home in preferences and restart.
