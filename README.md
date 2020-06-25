@@ -1,17 +1,7 @@
 ## Prismatic-Night
 
 ### Table of Contents
-│── [Instructions](#Instructions)
-│   │── [Firefox theme](#Firefoxtheme)
-│   │   │── [Setting the userchrome](#userchrome)
-│   │   │── [Setting the startpage as the Home page](#homepage)
-│   │   └── [Setting the startpage as the New Tab page](#newtab)
-│   │── [Openbox theme](#openbox)
-│   │── [Tint2 theme](#tint2)
-│   │── [Folder and systray icons](#icons)
-│   │── [Geany colorscheme](#geany)
-│   └── [Zathura](#zathura)
-└── [Screenshots](#scrots)
+│── [Instructions](#Instructions)<br>│   │── [Firefox theme](#Firefoxtheme)<br>│   │   │── [Setting the userchrome](#userchrome)<br>│   │   │── [Setting the startpage as the Home page](#homepage)<br>│   │   └── [Setting the startpage as the New Tab page](#newtab)<br>│   │── [Openbox theme](#openbox)<br>│   │── [Tint2 theme](#tint2)<br>│   │── [Folder and systray icons](#icons)<br>│   │── [Geany colorscheme](#geany)<br>│   └── [Zathura](#zathura)<br>└── [Screenshots](#scrots)<br>
 
 ## Instructions <a name="Instructions"></a>
 
