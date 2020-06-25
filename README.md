@@ -5,10 +5,10 @@
 
 ## Instructions <a name="Instructions"></a>
 
-### Firefox theme <a name="Firefoxtheme"></a>
+## Firefox theme <a name="Firefoxtheme"></a>
 (**tested in version 77**)
 
-#### Setting the userchrome <a name="userchrome"></a>
+### Setting the userchrome <a name="userchrome"></a>
 Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
 
 If you are using FF 69+ you need to enable this first: `about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true`
@@ -35,12 +35,12 @@ If this is uncommented, you need to press **Ctrl+L** to access the url bar and o
 
 ##### **BONUS**: uncomment line 8 to put the tabs in the bottom. 
 
-#### Setting the startpage as the Home page <a name="homepage"></a>
+### Setting the startpage as the Home page <a name="homepage"></a>
 
 Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right click on the `index.html` from the startpage dir and open with firefox. Now copy the location of the file from the address bar. It looks like this: `file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html`. Open `preferences > Home` from the hamburger menu, select custom URLs and paste the address like so:
 ![prefs](/screenshots/pref.png).
 
-#### Setting the startpage as the New Tab page <a name="newtab"></a>
+### Setting the startpage as the New Tab page <a name="newtab"></a>
 In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
 
 - Open the firefox/newtab/ dir in your file manager. It contains `local-settings.js` and `mozilla.cfg`.
