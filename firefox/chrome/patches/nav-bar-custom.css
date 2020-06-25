@@ -1,0 +1,44 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+#navigator-toolbox::after {
+  display: none !important;
+  border-bottom: 0px !important;
+}
+
+#nav-bar, #TabsToolbar {
+  border: none !important;
+}
+
+#nav-bar-customization-target {
+	background-color: #222D32 !important;
+}
+
+#navigator-toolbox{ 
+  margin-top: 0px;
+  padding-top: 0px !important; 
+  border: none !important;
+}
+
+#navigator-toolbox { --tabs-border-color: transparent !important; }
+
+.toolbarbutton-1 {
+    fill: #A3AFC1 !important;
+    background-color: #222D32 !important;
+}
+
+  #urlbar-input-container{
+    border: none !important;
+ }
+
+#urlbar[open] > #urlbar-background{
+  background: #222D32 !important;
+  border-color: transparent !important;
+  box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, .32) !important;
+}
+
+#urlbar-background {
+    background-color: #222D32 !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}

@@ -1,0 +1,11 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+#nav-bar { 
+  -moz-box-ordinal-group: 1 !important;
+}
+#PersonalToolbar { 
+  -moz-box-ordinal-group: 2 !important;
+}
+#titlebar { 
+  -moz-box-ordinal-group: 3 !important;
+}

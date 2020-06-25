@@ -5,8 +5,8 @@ body{
 .container{
 	display: grid;
 	grid-gap: 20px;
-	margin-top: 6%;
-	margin-bottom: 2%;
+	margin-top: 4%;
+	margin-bottom: 0.5%;
 	margin-left: 10%;
 	margin-right: 10%;
 	grid-template-columns: repeat(5,1fr);

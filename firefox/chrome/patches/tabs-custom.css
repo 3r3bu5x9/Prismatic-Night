@@ -1,0 +1,82 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+.tab-line {display : none !important;}
+
+/*tab border*/
+.tab-content {border-bottom: 2px solid #9575CD !important;padding-top: 3px !important;}
+
+.tab-content[selected="true"]
+{
+  background-color: #263238 !important;
+  border-bottom: 2px solid #9C27B0 !important;/*tab border*/
+  color : #F4F4F4 !important;
+}
+
+/*tab width*/
+.tabbrowser-tab[fadein]:not([pinned]):not([style*="max-width"]){max-width: 180px !important;}
+
+tab
+{
+  padding-right:1px !important;
+  padding-left:1px !important;
+  padding-bottom:0px !important;
+  background-color: #263238 !important;
+  color : #9BA8BB !important;
+}
+
+scrollbox[orient="horizontal"]{ -moz-box-pack: center; }
+
+.tabbrowser-tab::before, 
+.tabbrowser-tab::after {display: none !important;}
+
+#tabbrowser-tabs
+{
+  background-color: #263238 !important;
+  margin-left: 0px !important;
+  height: 25px !important;
+  margin-bottom: 0px !important;
+  text-align: center !important;
+}
+
+.tabbrowser-tab:hover > .tab-stack > .tab-background:not([selected="true"]):not([multiselected]){ background-color: transparent !important }
+
+.tabbrowser-tab{ opacity: 0.5 }
+.tabbrowser-tab:hover{ opacity: 0.75 }
+.tabbrowser-tab[selected]{ opacity: 1 }
+
+/* FAVICONS Color */
+/* Default */
+.tab-throbber-tabslist,
+.tab-throbber,
+.tab-icon-pending,
+.tab-icon-image,
+.tab-sharing-icon-overlay,
+.tab-icon-sound,
+.tab-close-button {
+  display:none !important; }
+
+.tabbrowser-tab[selected] .tab-icon-image
+{
+  filter: grayscale(100%) opacity(90%) !important;
+  /*display: none !important;*/
+}
+
+.tab-text[selected] {
+  text-align: center !important;
+  font-weight: bold !important;
+  -moz-box-flex: 1 !important; 
+}
+.tab-text {
+  text-align: center !important;
+  -moz-box-flex: 1 !important;
+}
+
+/* Close tab color */
+#TabsToolbar .close-icon {
+  /*filter: opacity(0%) !important;*/
+  display:none !important;
+}
+
+/* New Tab Flash */
+:root{--newtab-textbox-background-color:#263238;}

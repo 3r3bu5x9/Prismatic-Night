@@ -1,66 +1,98 @@
 ## Prismatic-Night
 
-### Instructions
+### Table of Contents
+│── [Instructions](#Instructions)
+│   │── [Firefox theme](#Firefoxtheme)
+│   │   │── [Setting the userchrome](#userchrome)
+│   │   │── [Setting the startpage as the Home page](#homepage)
+│   │   └── [Setting the startpage as the New Tab page](#newtab)
+│   │── [Openbox theme](#openbox)
+│   │── [Tint2 theme](#tint2)
+│   │── [Folder and systray icons](#icons)
+│   │── [Geany colorscheme](#geany)
+│   └── [Zathura](#zathura)
+└── [Screenshots](#scrots)
 
-- **For firefox**
+## Instructions <a name="Instructions"></a>
 
-**Important**: see line 204 of [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
+### Firefox theme <a name="Firefoxtheme"></a>
+(**tested in version 77**)
 
-```
- /* #navigator-toolbox:hover:not(:focus-within)
-  {
-	margin-top: -30px;
-  }*//*uncomment this if u want focus only on pressing ctrl+L*/
-```
+#### Setting the userchrome <a name="userchrome"></a>
+Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
 
-This is commented by default. So the url bar, addons, and other stuff can be accessed by hovering on the tab area with your mouse.
+If you are using FF 69+ you need to enable this first: `about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true`
+ 
 
-*Hover access*
+**Important**: see [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
+
+![patches](/screenshots/patches.png)
+
+The userchrome is divided into various part so that it will be easier to add/ edit the different bits.
+
+Lines *11* and *12* contains two nav bar access methods(use any **one** at once, i.e. uncomment line 11 or 12. If one of them is uncommented the other must be commented):
+
+#### *Hover access*
 
 ![hover](/screenshots/hover.gif)
+This is the default access method. Just hover on the tab area with your cursor to access the nav bar and other stuff.
 
+
+#### *Ctrl+L access*
 If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
-
-*Ctrl+L access*
 
 ![ctrlL](/screenshots/ctrl_L.gif)
 
-**Setting the theme...**
-Place both chrome and startpage(or startpage_alt) in .mozilla/firefox/PROFILE/ to use them. You can get the location of your PROFILE dir in about:profiles. Set the startpage for Home in preferences and restart.
+##### **BONUS**: uncomment line 8 to put the tabs in the bottom. 
 
- The chrome dir contains 2 types of files.
+#### Setting the startpage as the Home page <a name="homepage"></a>
 
-   1. userChrome.css and userContent.css for the UI and the default homepage respectively.
+Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right click on the `index.html` from the startpage dir and open with firefox. Now copy the location of the file from the address bar. It looks like this: `file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html`. Open `preferences > Home` from the hamburger menu, select custom URLs and paste the address like so:
+![prefs](/screenshots/pref.png).
 
-   2. userChrome.xml and userChrome.js for setting the New tab page to a custom page.
+#### Setting the startpage as the New Tab page <a name="newtab"></a>
+In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
 
-If you are using FF 69+ you need to enable this first: about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true
+- Open the firefox/newtab/ dir in your file manager. It contains `local-settings.js` and `mozilla.cfg`.
+- Open `mozilla.cfg` in any text editor. It looks like this:
+![prefs](/screenshots/cfg.png)
 
-- **For the startpage**: 
+- In line 7 paste the address of the `index.html`(see previous section) in the double quotes. Save and close the file.
 
-To enable the newtab startpage functionality open userChrome.js and then change const mypage = "file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html"; Put the path of your index.html in the quotation.
+- Open your terminal and `cd` into firefox/newtab/ (location of `local-settings.js` and `mozilla.cfg`). 
+- Now run the following commands as root user:
+```
+sudo cp mozilla.cfg /usr/lib/firefox/
+sudo cp local-settings.js /usr/lib/firefox/defaults/pref/
+```
+![setpage](/screenshots/setpage.png)
+- Restart firefox (Done!).
 
-- **Openbox theme**:
+---
+
+### Openbox theme <a name="openbox"></a>
 
 Copy the Prismatic-Night dir from openbox dir to ~/.themes/ or /usr/share/themes/ to use it and select the theme with your Openbox Configuration Manager.
 
-- **Tint2 theme**: 
+#### Tint2 theme <a name="tint2"></a>
 
 Copy the contents of the tint2 dir to ~/.config/tint2/ and select the theme with your tint2 gui editor/ theme selector. Do not forget to put the correct path of the icons in your tint2rc otherwise the icons wont appear(change it to your username in /home/USERNAME/.config/tint2/icons/icon.png).
 
-- **Folder and systray icons**:
+#### Folder and systray icons <a name="icons"></a>
 
 If ur using Nemo or any fork of Nautilus as your file manager, u can directly select the icons through right-click menu -> properties after selecting a folder. For other file managers u have to replace the icons of ur icon theme with the ones here. You can also replace the icons of any icon pack with my icons. For the systray icons copy the contents to for example /usr/share/icons/Papirus/16x16/panel and replace the icons. Then restart session.
 
-- **Geany colorscheme**:
+#### Geany colorscheme <a name="geany"></a>
 
 Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
 
-- **Zathura**:
+#### Zathura <a name="zathura"></a>
 
 Copy the zathura dir to ~/.config/
 
-### Screenshots
+---
+
+## Screenshots <a name="scrots"></a>
 
 1. **Firefox**, **tint2**
 

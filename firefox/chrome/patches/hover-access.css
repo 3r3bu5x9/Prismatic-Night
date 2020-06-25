@@ -1,0 +1,8 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+ #navigator-toolbox:not(:focus-within):not(:hover) {
+    margin-top: -38px;
+  }
+  #navigator-toolbox {
+    transition: 0.2s margin-top ease-out;
+  }
