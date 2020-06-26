@@ -12,7 +12,8 @@
 Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
 
 If you are using FF 69+ you need to enable this first: `about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true`
- 
+
+Also set the UI density to compact.
 
 **Important**: see [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
 
@@ -38,6 +39,7 @@ If this is uncommented, you need to press **Ctrl+L** to access the url bar and o
 ### Setting the startpage as the Home page <a name="homepage"></a>
 
 Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right click on the `index.html` from the startpage dir and open with firefox. Now copy the location of the file from the address bar. It looks like this: `file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html`. Open `preferences > Home` from the hamburger menu, select custom URLs and paste the address like so:
+
 ![prefs](/screenshots/pref.png).
 
 ### Setting the startpage as the New Tab page <a name="newtab"></a>
@@ -45,6 +47,7 @@ In the older firefox versions this step was very easy and straight forward but n
 
 - Open the firefox/newtab/ dir in your file manager. It contains `local-settings.js` and `mozilla.cfg`.
 - Open `mozilla.cfg` in any text editor. It looks like this:
+
 ![prefs](/screenshots/cfg.png)
 
 - In line 7 paste the address of the `index.html`(see previous section) in the double quotes. Save and close the file.
