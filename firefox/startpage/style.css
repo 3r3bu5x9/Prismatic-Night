@@ -1,14 +1,14 @@
 html,body{
 	background: #263238;
 	color: #BBC4C8;
-  height: 98%;
+    height: 98%;
 }
 
 .container{
-	 display: flex;
-   flex-direction: column;
-   height: 100%;
-	 justify-content: center;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
 }
 
 .head{
@@ -17,18 +17,18 @@ html,body{
 }
 
 .category{
-	 display: flex;
-	 flex-direction: column; 
-	 width: 150px;
+    display: flex;
+    flex-direction: column; 
+    width: 150px;
 }
 
 .bookmark{
-	 display: flex;
+    display: flex;
 	justify-content: space-evenly;
 }
 
 .bookmarks{
-  display: flex;
+    display: flex;
 	flex-direction: column;
 	border: #191C1E;
 	border-radius: 3px;
@@ -36,6 +36,7 @@ html,body{
 	align-items: center;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	background: #222D32;
 }
 
 .logo{
