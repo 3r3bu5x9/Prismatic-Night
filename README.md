@@ -13,13 +13,13 @@ Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get t
 
 If you are using FF 69+ you need to enable this first: `about:config > toolkit.legacyUserProfileCustomizations.stylesheets > true`
 
-Also set the UI density to compact.
+**Also, set the UI density to compact.**
 
 **Important**: see [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
 
 ![patches](/screenshots/patches.png)
 
-The userchrome is divided into various part so that it will be easier to add/ edit the different bits.
+The userchrome is divided into various "patch files" so that it will be easier to add/ edit the different bits.
 
 Lines *11* and *12* contains two nav bar access methods(use any **one** at once, i.e. uncomment line 11 or 12. If one of them is uncommented the other must be commented):
 

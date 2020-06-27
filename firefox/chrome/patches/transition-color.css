@@ -1,0 +1,8 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+#browser vbox#appcontent tabbrowser,
+#content, 
+#tabbrowser-tabpanels,
+browser[type=content-primary],
+browser[type=content] > html{
+    background: #263238 !important
+}
