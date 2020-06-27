@@ -26,13 +26,16 @@ Lines *11* and *12* contains two nav bar access methods(use any **one** at once,
 #### *Hover access*
 
 ![hover](/screenshots/hover.gif)
+
 This is the default access method. Just hover on the tab area with your cursor to access the nav bar and other stuff.
 
 
 #### *Ctrl+L access*
-If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
 
 ![ctrlL](/screenshots/ctrl_L.gif)
+
+If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
+
 
 ##### **BONUS**: uncomment line 8 to put the tabs in the bottom. 
 
@@ -41,6 +44,8 @@ If this is uncommented, you need to press **Ctrl+L** to access the url bar and o
 Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right click on the `index.html` from the startpage dir and open with firefox. Now copy the location of the file from the address bar. It looks like this: `file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html`. Open `preferences > Home` from the hamburger menu, select custom URLs and paste the address like so:
 
 ![prefs](/screenshots/pref.png).
+
+Restart firefox.
 
 ### Setting the startpage as the New Tab page <a name="newtab"></a>
 In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
