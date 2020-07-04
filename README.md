@@ -6,7 +6,7 @@
 ## Instructions <a name="Instructions"></a>
 
 ## Firefox theme <a name="Firefoxtheme"></a>
-(**tested in Firefox 77**)
+(**tested in Firefox 78**)
 
 ### Setting the userchrome <a name="userchrome"></a>
 Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
