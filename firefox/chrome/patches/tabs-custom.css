@@ -80,3 +80,6 @@ scrollbox[orient="horizontal"]{ -moz-box-pack: center; }
 
 /* New Tab Flash */
 :root{--newtab-textbox-background-color:#263238;}
+
+/* remove list-all-tabs button with appears permanently after ff 78 update */
+#alltabs-button { display: none !important; }
