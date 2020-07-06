@@ -1,8 +1,8 @@
  @-moz-document url("about:home"),url(about:preferences),url("about:blank"),url("about:newtab"),url("about:privatebrowsing"){
   body{background-color:#263238!important;--newtab-search-icon: transparent !important;}
-  a,a:visited,a:hover{color:#263238!important}
+  a,a:visited,a:hover{color:#292D31!important}
 	#newtab-search-text {
-	background-color: #263238 !important;
+	background-color: #292D31 !important;
 	font-size: 18px !important;
 	color: #9BA8BB !important;
 	box-shadow: none !important;
@@ -46,10 +46,10 @@
     --in-content-border-active: #9BA8BB !important;
     --in-content-border-active-shadow: none !important;
     --in-content-page-background: #263238 !important;
+    --in-content-page-color: #9BA8BB !important;
     scrollbar-color: #677379 #263238 !important;
     scrollbar-width: thin;
 }
-
 
 
 /*DARK MODE*/ /*The colors below represent a dark theme.*/
