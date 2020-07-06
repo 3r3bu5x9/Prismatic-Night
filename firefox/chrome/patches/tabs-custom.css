@@ -8,7 +8,7 @@
 
 .tab-content[selected="true"]
 {
-  background-color: #263238 !important;
+  background-color: #222D32 !important;
   border-bottom: 2px solid #9C27B0 !important;/*tab border*/
   color : #F4F4F4 !important;
 }
@@ -21,7 +21,7 @@ tab
   padding-right:1px !important;
   padding-left:1px !important;
   padding-bottom:0px !important;
-  background-color: #263238 !important;
+  background-color: #222D32 !important;
   color : #9BA8BB !important;
 }
 
@@ -32,7 +32,7 @@ scrollbox[orient="horizontal"]{ -moz-box-pack: center; }
 
 #tabbrowser-tabs
 {
-  background-color: #263238 !important;
+  background-color: #222D32 !important;
   margin-left: 0px !important;
   height: 25px !important;
   margin-bottom: 0px !important;
