@@ -1,5 +1,12 @@
 ## Prismatic-Night
 
+#### About the Startpage
+
+The Startpage is hosted using github-pages. [Click here](https://dbuxy218.github.io/Prismatic-Night/) to see the live priview.
+The Startpage currently supports searching with DuckDuckgo and Google. Click on the search engine logo image to toggle the search engine.
+
+![engine](/screenshots/engineToggle.gif)
+
 ### Table of Contents
 │── [Instructions](#Instructions)<br>│   │── [Firefox theme](#Firefoxtheme)<br>│   │   │── [Setting the userchrome](#userchrome)<br>│   │   │── [Setting the startpage as the Home page](#homepage)<br>│   │   └── [Setting the startpage as the New Tab page](#newtab)<br>│   │── [Openbox theme](#openbox)<br>│   │── [Tint2 theme](#tint2)<br>│   │── [Folder and systray icons](#icons)<br>│   │── [Geany colorscheme](#geany)<br>│   └── [Zathura](#zathura)<br>└── [Screenshots](#scrots)<br>
 
