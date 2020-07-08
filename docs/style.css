@@ -1,0 +1,103 @@
+html,body{
+	background: #263238;
+	color: #BBC4C8;
+    height: 98%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
+.head{
+	display: flex;
+	flex-direction: column;
+}
+
+.category{
+    display: flex;
+    flex-direction: column; 
+    width: 150px;
+}
+
+.bookmark{
+    display: flex;
+	justify-content: space-evenly;
+}
+
+.bookmarks{
+    display: flex;
+	flex-direction: column;
+	border: #191C1E;
+	border-radius: 3px;
+	box-shadow: 0px 4px 5px #171D20;
+	align-items: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background: #222D32;
+}
+
+.logo{
+	align-self: center;
+	padding: 15px;
+}
+
+.icon{
+	align-self: center;
+	justify-content: center;
+	margin: 15px;
+}
+
+.input_box{
+	border: none;
+	outline: none;
+	background: none;
+	padding: 15px;
+	width: 410px;
+	color: whitesmoke;
+	font-size: 22px;
+	transition: 0.4px all;
+	border-radius: 3px 0px 0px 3px;
+}
+.button{
+	background:  none;
+	border-radius: 0px 3px 3px 0px;
+	padding-top: 4px;
+	padding-bottom: 1px;
+	padding-left: 2px;
+	padding-right: 2px;
+	position: absolute;
+	border: none;
+	transition-duration: 0.4s;
+}
+.search_box
+{
+	padding-bottom: 25px;
+	background: #222D32;
+	width: 500px;
+	padding: 0px;
+	margin-bottom: 40px;
+	border-radius: 3px 3px 3px 3px;
+	box-shadow: 0px 4px 5px #171D20;
+	align-self: center;
+}
+.button:hover{
+	filter: saturate(150%) brightness(120%)!important;
+}
+li{
+	font-size: 16px;
+	list-style-type: none;
+	padding:5px
+}
+a:link{
+	text-decoration: none;
+	color: #8F9191;
+}
+a:visited{
+	color: #8F9191;
+}
+a:hover{
+	color: #BD3CD3;
+}
