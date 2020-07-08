@@ -50,41 +50,74 @@ html,body{
 	margin: 15px;
 }
 
+
 .input_box{
-	border: none;
-	outline: none;
-	background: none;
-	padding: 15px;
-	width: 410px;
-	color: whitesmoke;
-	font-size: 22px;
-	transition: 0.4px all;
-	border-radius: 3px 0px 0px 3px;
+	 border: none;
+	 outline: none;
+	 background: none;
+	 padding-bottom: 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	 width: 420px;
+	 color: whitesmoke;
+	 font-size: 22px;
+	 transition: 0.4px all;
+	 border-radius: 0px 0px 0px 0px;
+	height: 70px;
+	text-align: center;
 }
 .button{
 	background:  none;
 	border-radius: 0px 3px 3px 0px;
-	padding-top: 4px;
-	padding-bottom: 1px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 	padding-left: 2px;
 	padding-right: 2px;
-	position: absolute;
 	border: none;
-	transition-duration: 0.4s;
+	transition-duration: 0.6s;
+	position: fixed;
+	height: 70px;
+	opacity: 60%;
 }
+form
+{
+	margin: 0px;
+	padding: 0px;
+}
+.engine{
+	background:  none;
+	border-radius: 3px 0px 0px 3px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	padding-left: 12px;
+	padding-right: 10;
+	border: none;
+	transition-duration: 0.6s;
+	position: relative;
+	opacity: 60%;
+}
+
 .search_box
 {
+  display:flex;
 	padding-bottom: 25px;
 	background: #222D32;
-	width: 500px;
+	width: 560;
 	padding: 0px;
 	margin-bottom: 40px;
 	border-radius: 3px 3px 3px 3px;
 	box-shadow: 0px 4px 5px #171D20;
 	align-self: center;
+	height: 70px;
+}
+
+.engine:hover{
+	filter: saturate(150%) brightness(120%)!important;
+  opacity: 100%;
 }
 .button:hover{
 	filter: saturate(150%) brightness(120%)!important;
+	opacity: 100%;
 }
 li{
 	font-size: 16px;
@@ -100,4 +133,25 @@ a:visited{
 }
 a:hover{
 	color: #BD3CD3;
+}
+
+div.bookmarks.cod a:hover
+{
+	color: #00CF35;
+}
+div.bookmarks.doc a:hover
+{
+	color: #FF8A00;
+}
+div.bookmarks.ent a:hover
+{
+	color: #FF492F;
+}
+div.bookmarks.mus a:hover
+{
+	color: #00B8FF;
+}
+div.bookmarks.art a:hover
+{
+	color: #FF62CE;
 }
