@@ -2,7 +2,7 @@
 
 #### About the Startpage
 
-The Startpage is hosted using github-pages. [Click here](https://dbuxy218.github.io/Prismatic-Night/) to see the live priview.
+The Startpage is hosted using github-pages. [Click here](https://dbuxy218.github.io/Prismatic-Night/) to see the live preview.
 The Startpage currently supports searching with DuckDuckgo and Google. Click on the search engine logo image to toggle the search engine.
 
 ![engine](/screenshots/engineToggle.gif)
@@ -50,7 +50,7 @@ If this is uncommented, you need to press **Ctrl+L** to access the url bar and o
 
 Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right click on the `index.html` from the startpage dir and open with firefox. Now copy the location of the file from the address bar. It looks like this: `file:///home/debasis/.mozilla/firefox/sawjo289.default-esr/startpage/index.html`. Open `preferences > Home` from the hamburger menu, select custom URLs and paste the address like so:
 
-![prefs](/screenshots/pref.png).
+![prefs](/screenshots/pref.png)
 
 Restart firefox.
 
