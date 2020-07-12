@@ -13,7 +13,7 @@ The Startpage currently supports searching with DuckDuckgo and Google. Click on 
 ## Instructions <a name="Instructions"></a>
 
 ## Firefox theme <a name="Firefoxtheme"></a>
-(**tested in Firefox 78**)
+(**tested in Firefox 78.0, Firefox-dev 79.0, Firefox-esr 68.10**)
 
 ### Setting the userchrome <a name="userchrome"></a>
 Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
