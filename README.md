@@ -22,6 +22,10 @@ If you are using FF 69+ you need to enable this first: `about:config > toolkit.l
 
 **Also, set the UI density to compact.**
 
+Right-click on tabs bar/nav bar > Customize.. > Density > Compact
+
+![uidensity](/screenshots/uidensity.png)
+
 **Important**: see [userChrome.css](https://github.com/dbuxy218/Prismatic-Night/blob/master/firefox/chrome/userChrome.css)
 
 ![patches](/screenshots/patches.png)
