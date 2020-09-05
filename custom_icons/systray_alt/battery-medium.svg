@@ -8,14 +8,14 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   sodipodi:docname="battery-full.svg"
+   sodipodi:docname="battery-medium.svg"
    id="svg6"
    version="1.1"
    class="feather feather-battery"
    stroke-linejoin="round"
    stroke-linecap="round"
    stroke-width="2.5"
-   stroke="#8ADA39"
+   stroke="#F7E631"
    fill="none"
    viewBox="0 0 24 24"
    height="16"
@@ -39,7 +39,7 @@
      inkscape:window-y="140"
      inkscape:window-x="317"
      inkscape:cy="8"
-     inkscape:cx="7.8312597"
+     inkscape:cx="8"
      inkscape:zoom="33.625"
      showgrid="false"
      id="namedview8"
@@ -55,61 +55,26 @@
      pagecolor="#ffffff"
      inkscape:document-rotation="0" />
   <rect
-     style="stroke-width:3.1005;stroke-miterlimit:4;stroke-dasharray:none"
      id="rect2"
      ry="2"
      rx="2"
      height="12"
      width="18"
      y="6"
-     x="1.59975" />
+     x="1.5994999"
+     style="stroke-width:3.1005;stroke-miterlimit:4;stroke-dasharray:none" />
   <line
-     style="stroke-width:3.1005;stroke-miterlimit:4;stroke-dasharray:none"
      id="line4"
      y2="11"
-     x2="22.400249"
+     x2="22.4"
      y1="13"
-     x1="22.400249" />
-  <line
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none"
-     x1="4.6094999"
-     y1="14.984412"
-     x2="4.6094999"
-     y2="9.1395798"
-     id="line4-3" />
-  <line
-     id="line4-3-6"
-     y2="9.1383295"
-     x2="6.9492407"
-     y1="14.983161"
-     x1="6.9492407"
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none" />
-  <line
-     id="line4-3-7"
-     y2="9.1150532"
-     x2="9.3343344"
-     y1="14.959886"
-     x1="9.3343344"
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none" />
-  <line
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none"
-     x1="11.674075"
-     y1="14.958636"
-     x2="11.674075"
-     y2="9.1138029"
-     id="line4-3-6-5" />
-  <line
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none"
-     x1="14.033718"
-     y1="14.904582"
-     x2="14.033718"
-     y2="9.0597506"
-     id="line4-3-7-3" />
-  <line
-     id="line4-3-6-5-5"
-     y2="9.0585003"
-     x2="16.373459"
-     y1="14.903333"
-     x1="16.373459"
-     style="stroke-width:1.8;stroke-miterlimit:4;stroke-dasharray:none" />
+     x1="22.4"
+     style="stroke-width:3.1005;stroke-miterlimit:4;stroke-dasharray:none" />
+  <rect
+     style="fill:#f7e631;fill-opacity:1;stroke:#f7e631;stroke-width:3.11524;stroke-linecap:round;stroke-linejoin:miter;stroke-miterlimit:5;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+     id="rect850"
+     width="1.1763684"
+     height="4.6889062"
+     x="5.189909"
+     y="9.7379875" />
 </svg>

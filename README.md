@@ -1,5 +1,7 @@
 ## Prismatic-Night
 
+If you're seeing something unexpected OR the result doesn't match the screenshots OR you want me to add new features to the startpage OR you need help in modifing the existing files, [click on this](https://github.com/dbuxy218/Prismatic-Night/issues/new/choose) to open an issue and I'll try to solve it. Post a screenshot of the problem, your current OS as well as the version of firefox you're using. 
+
 #### About the Startpage
 
 The Startpage is hosted using github-pages. [Click here](https://dbuxy218.github.io/Prismatic-Night/) to see the live preview.
@@ -13,7 +15,7 @@ The Startpage currently supports searching with DuckDuckgo and Google. Click on 
 ## Instructions <a name="Instructions"></a>
 
 ## Firefox theme <a name="Firefoxtheme"></a>
-(**tested in Firefox 78.0, Firefox-dev 79.0, Firefox-esr 68.10**)
+(**tested in Firefox 80.0**)
 
 ### Setting the userchrome <a name="userchrome"></a>
 Place the chrome dir in `~/.mozilla/firefox/PROFILE/` to use them. You can get the location of your PROFILE dir in `about:profiles` (type this in the address bar in your browser).
@@ -59,7 +61,7 @@ Copy the startpage dir to `~/.mozilla/firefox/PROFILE/` just like above. Right c
 Restart firefox.
 
 ### Setting the startpage as the New Tab page <a name="newtab"></a>
-In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
+In the older firefox versions this step was very easy and straight forward but now it's a bit [complicated](https://support.mozilla.org/en-US/kb/customizing-firefox-using-autoconfig). But fortunately if you follow these steps it will be quite easy([credit/for windows](https://www.reddit.com/r/firefox/comments/ge86z4/newtab_page_to_local_file_firefox_76_redux/)):
 
 - Open the firefox/newtab/ dir in your file manager. It contains `local-settings.js` and `mozilla.cfg`.
 - Open `mozilla.cfg` in any text editor. It looks like this:
@@ -81,11 +83,11 @@ sudo cp local-settings.js /usr/lib/firefox/defaults/pref/
 
 ### Openbox theme <a name="openbox"></a>
 
-Copy the Prismatic-Night dir from openbox dir to ~/.themes/ or /usr/share/themes/ to use it and select the theme with your Openbox Configuration Manager.
+Copy the Prismatic-Night dir from dots/openbox dir to ~/.themes/ or /usr/share/themes/ to use it and select the theme with your Openbox Configuration Manager.
 
 #### Tint2 theme <a name="tint2"></a>
 
-Copy the contents of the tint2 dir to ~/.config/tint2/ and select the theme with your tint2 gui editor/ theme selector. Do not forget to put the correct path of the icons in your tint2rc otherwise the icons wont appear(change it to your username in /home/USERNAME/.config/tint2/icons/icon.png).
+Copy the contents of the dots/tint2(or tint2-alt) dir to ~/.config/tint2/ and select the theme with your tint2 gui editor/ theme selector. Do not forget to put the correct path of the icons in your tint2rc otherwise the icons wont appear(change it to your username in /home/USERNAME/.config/tint2/icons/icon.png).
 
 #### Folder and systray icons <a name="icons"></a>
 
@@ -93,11 +95,11 @@ If ur using Nemo or any fork of Nautilus as your file manager, u can directly se
 
 #### Geany colorscheme <a name="geany"></a>
 
-Copy the Prismatic-Night.conf to ~/.config/geany/colorschemes.
+Copy the dots/geany/Prismatic-Night.conf to ~/.config/geany/colorschemes.
 
 #### Zathura <a name="zathura"></a>
 
-Copy the zathura dir to ~/.config/
+Copy the dots/zathura dir to ~/.config/
 
 ---
 

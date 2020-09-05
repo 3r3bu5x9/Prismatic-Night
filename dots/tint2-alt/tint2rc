@@ -116,7 +116,7 @@ border_width = 0
 border_sides = 
 border_content_tint_weight = 0
 background_content_tint_weight = 0
-background_color = #1f292e 100
+background_color = #263238 100
 border_color = #000000 0
 background_color_hover = #000000 0
 border_color_hover = #000000 0
@@ -192,7 +192,7 @@ border_color_pressed = #1a1c1f 100
 
 #-------------------------------------
 # Panel
-panel_items = :SCTPPPPPPPPPPP:
+panel_items = :PPSCTPPPPPPPPPPPP:
 panel_size = 100% 28
 panel_margin = 0 0
 panel_padding = 0 0 5
@@ -299,7 +299,7 @@ time2_format =
 time1_font = Iosevka Semibold 10
 time1_timezone = 
 time2_timezone = 
-clock_font_color = #9071c4 100
+clock_font_color = #937bf3 100
 clock_padding = 5 4
 clock_background_id = 8
 clock_tooltip = 
@@ -349,6 +349,56 @@ separator_color = #777777 80
 separator_style = empty
 separator_size = 3
 separator_padding = 0 0
+
+
+#-------------------------------------
+# Button 11
+button = new
+button_icon = /home/debasis/.config/tint2/icons/power.svg
+button_text = 
+button_lclick_command = bl-exit
+button_rclick_command = 
+button_mclick_command = 
+button_uwheel_command = 
+button_dwheel_command = 
+button_font_color = #000000 100
+button_padding = 2 0
+button_background_id = 11
+button_centered = 0
+button_max_icon_size = 16
+
+
+#-------------------------------------
+# Button 1
+button = new
+button_icon = /home/debasis/.config/tint2/icons/game.svg
+button_text = 
+button_lclick_command = desmume
+button_rclick_command = gvba
+button_mclick_command = 
+button_uwheel_command = 
+button_dwheel_command = 
+button_font_color = #000000 100
+button_padding = 2 0
+button_background_id = 11
+button_centered = 1
+button_max_icon_size = 16
+
+#-------------------------------------
+# Button 1
+button = new
+button_icon = /home/debasis/.config/tint2/icons/opera.svg
+button_text = 
+button_lclick_command = opera
+button_rclick_command = 
+button_mclick_command = 
+button_uwheel_command = 
+button_dwheel_command = 
+button_font_color = #000000 100
+button_padding = 2 0
+button_background_id = 11
+button_centered = 1
+button_max_icon_size = 16
 
 #-------------------------------------
 # Button 1
@@ -478,6 +528,21 @@ button_background_id = 11
 button_centered = 1
 button_max_icon_size = 16
 
+# Button 11
+button = new
+button_icon = /home/debasis/.config/tint2/icons/calculator.svg
+button_text = 
+button_lclick_command = qalculate
+button_rclick_command = 
+button_mclick_command = 
+button_uwheel_command = 
+button_dwheel_command = 
+button_font_color = #000000 100
+button_padding = 0 0
+button_background_id = 11
+button_centered = 1
+button_max_icon_size = 16
+
 #-------------------------------------
 # Button 9
 button = new
@@ -510,21 +575,6 @@ button_background_id = 11
 button_centered = 1
 button_max_icon_size = 16
 
-#-------------------------------------
-# Button 11
-button = new
-button_icon = /home/debasis/.config/tint2/icons/power.svg
-button_text = 
-button_lclick_command = bl-exit
-button_rclick_command = 
-button_mclick_command = 
-button_uwheel_command = 
-button_dwheel_command = 
-button_font_color = #000000 100
-button_padding = 2 0
-button_background_id = 11
-button_centered = 0
-button_max_icon_size = 16
 
 #-------------------------------------
 # Tooltip

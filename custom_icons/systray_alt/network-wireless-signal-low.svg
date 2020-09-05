@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="network-wireless-signal-low.svg"
+   id="svg10"
+   version="1.1"
+   class="feather feather-wifi"
+   stroke-linejoin="round"
+   stroke-linecap="round"
+   stroke-width="3"
+   stroke="currentColor"
+   fill="none"
+   viewBox="0 0 24 24"
+   height="16"
+   width="16">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     inkscape:current-layer="svg10"
+     inkscape:window-maximized="0"
+     inkscape:window-y="70"
+     inkscape:window-x="196"
+     inkscape:cy="9.0360955"
+     inkscape:cx="8"
+     inkscape:zoom="33.625"
+     showgrid="false"
+     id="namedview12"
+     inkscape:window-height="620"
+     inkscape:window-width="975"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0"
+     guidetolerance="10"
+     gridtolerance="10"
+     objecttolerance="10"
+     borderopacity="1"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     inkscape:document-rotation="0" />
+  <path
+     style="stroke-width:3.282;stroke:#909aaa;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path2"
+     d="m 5.0938063,12.550076 a 10.853768,11.013325 0 0 1 13.8928237,0" />
+  <path
+     style="stroke-width:3.282;stroke:#909aaa;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path4"
+     d="m 1.561398,8.9957763 a 15.787299,16.019382 0 0 1 20.878704,0" />
+  <path
+     style="stroke-width:3.282;stroke:#909aaa;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="path6"
+     d="m 8.5768794,16.114389 a 5.9202374,6.0072684 0 0 1 6.8576096,0" />
+  <line
+     style="stroke-width:3.282;stroke:#ef772b;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+     id="line8"
+     y2="20.009098"
+     x2="12.010616"
+     y1="20.009098"
+     x1="12.00075" />
+</svg>
