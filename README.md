@@ -49,6 +49,7 @@ This is the default access method. Just hover on the tab area with your cursor t
 
 If this is uncommented, you need to press **Ctrl+L** to access the url bar and other stuff. I prefer this mode as I find the access on hover a little annoying. So i've included it too.(previously this was the default mode but some people who weren't aware of the Ctrl+L feature was having problem. So i decided to make this optional and the access on hover default).
 
+If you want the nav bar to remain unhidden, comment both lines *11* and *12*.
 
 ##### **BONUS**: uncomment line 8 to put the tabs in the bottom. 
 
