@@ -1,14 +1,29 @@
-html,
+html{
+  display: flex;
+  flex-flow: row nowrap;  
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height:100%;
+  margin: 0;
+  padding: 0;
+  background:#263238;
+    }
+
 body {
   background: #263238;
   color: #BBC4C8;
-  height: 98%;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   height: 100%;
+  width: 100%;
   justify-content: center;
 }
 
