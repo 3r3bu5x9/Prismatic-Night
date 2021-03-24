@@ -1,0 +1,22 @@
+/*css part of the prismatic night theme. visit https://github.com/dbuxy218/Prismatic-Night*/
+
+#PersonalToolbar{
+    --multirow-bmb-n-rows: 3; /* Control how many rows are shown before scrolling */
+    --multirow-bmb-row-margin: 2px; /* Control how much spacing is between rows */
+    max-height: none !important;
+  }
+  #PlacesToolbar > hbox{ 
+    display: block;
+    width: 100vw;
+  }
+  #PlacesToolbarItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-height: calc(var(--multirow-bmb-n-rows) * (5px + 1em + (2 * var(--multirow-bmb-row-margin )))) !important;
+    overflow-y:auto;
+    scrollbar-color: var(--lwt-accent-color) var(--toolbar-bgcolor) ;
+    scrollbar-width: thin;
+  }
+  #PlacesChevron{ display: none }
+  #PlacesToolbarItems > .bookmark-item{ margin: var(--multirow-bmb-row-margin) 2px !important;  }

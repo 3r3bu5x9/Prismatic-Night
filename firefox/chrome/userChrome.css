@@ -6,7 +6,9 @@
 @import url("patches/transition-color.css");
 /*OPTIONAL*/
 /*@import url("patches/tabs-below-content.css");*/
+/*@import url("patches/multirow-bookmark-bar.css");*/
 
 /*USE ANY ONE at once*/
 /*@import url("patches/ctrl+l-access.css");*/
 @import url("patches/hover-access.css");
+
